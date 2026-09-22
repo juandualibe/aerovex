@@ -1,0 +1,88 @@
+# ==========================================
+# Entornos virtuales de Python
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Archivos de caché y compilación
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Linters y análisis de código (Mypy, Ruff, Pytest)
+# ==========================================
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ==========================================
+# Modelos de Inteligencia Artificial (Pesos pesados)
+# ==========================================
+*.pt
+*.onnx
+*.engine
+*.tflite
+models/*.pt
+yolo11*.pt
+
+# ==========================================
+# Datos locales y persistencia SQLite
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# ==========================================
+# Imágenes procesadas y salidas temporales
+# (Permite fotos de test base, ignora los resultados generados)
+# ==========================================
+test_images/resultado_*
+runs/
+output/
+salidas/
+procesadas/
+
+# ==========================================
+# Configuración local de IDEs / Editores
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# Archivos del Sistema Operativo
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
